@@ -18,15 +18,15 @@ namespace Fusion
         // Maximum number of tags that the Content Moderator review tool can show
         public const int MAXTAGSCOUNT = 7;
 
-        public const string ContentModeratorKey = "c7189494086d43d9895f5dae73d261de";
-        public const string ComputerVisionKey = "0f0669d909ad4b12b2f2260e5e5dd941";
-        public const string CustomVisionKey = "8e0260513fb84a7697e85732ff24c912";
+        public const string ContentModeratorKey = "XXXXXXXXXXXXX";
+        public const string ComputerVisionKey = "XXXXXXXXXXXX";
+        public const string CustomVisionKey = "XXXXXXXXXXX";
 
         // All your end points based on the new account and subscriptions
         public const string ImageUri = "https://westus.api.cognitive.microsoft.com/contentmoderator/moderate/v1.0/ProcessImage/Evaluate";
-        public const string ReviewUri = "https://westus.api.cognitive.microsoft.com/contentmoderator/review/v1.0/teams/m2september/reviews";
+        public const string ReviewUri = "https://westus.api.cognitive.microsoft.com/contentmoderator/review/v1.0/teams/YOUR-TEAM-ID/reviews";
         public const string ComputerVisionUri = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/analyze?details=celebrities";
-        public const string CustomVisionUri = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/e594d6b0-b42a-408f-9795-765708819f4a/url";
+        public const string CustomVisionUri = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/XXXXXXXXXXXXXXXX/url";
    
         public static int _ReviewIndexNext = 2;
 
